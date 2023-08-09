@@ -6,6 +6,7 @@
     "north": "schlemenspocketrockets:block/explosive_barrel_side",
     "south": "schlemenspocketrockets:block/explosive_barrel_side",
     "east": "schlemenspocketrockets:block/explosive_barrel_side",
-    "west": "schlemenspocketrockets:block/explosive_barrel_side"
+    "west": "schlemenspocketrockets:block/explosive_barrel_side",
+    "particle": "schlemenspocketrockets:block/explosive_barrel_top"
   }
 }
