@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " # ",
+    "#E#",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "E": {
+      "item": "schlemenspocketrockets:explosive_barrel"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "schlemenspocketrockets:pocketrocketmk1"
+  }
+}

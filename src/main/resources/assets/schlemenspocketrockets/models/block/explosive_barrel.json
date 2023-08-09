@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "schlemenspocketrockets:block/explosive_barrel_top",
+    "down": "schlemenspocketrockets:block/explosive_barrel_bottom",
+    "north": "schlemenspocketrockets:block/explosive_barrel_side",
+    "south": "schlemenspocketrockets:block/explosive_barrel_side",
+    "east": "schlemenspocketrockets:block/explosive_barrel_side",
+    "west": "schlemenspocketrockets:block/explosive_barrel_side"
+  }
+}
