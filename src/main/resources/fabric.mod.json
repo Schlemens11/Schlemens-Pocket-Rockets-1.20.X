@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "schlemenspocketrockets",
+	"version": "${version}",
+	"name": "Schlemens' Pocket Rockets",
+	"description": "A mod that adds rockets to Minecraft.",
+	"authors": [
+		"Schlemens"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/schlemenspocketrockets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.schlemens.schlemenspocketrockets.SchlemensPocketRockets"
+		],
+		"client": [
+          "net.schlemens.schlemenspocketrockets.SchlemensPocketRocketsClient"
+		],
+		"fabric-datagen": [
+			"net.schlemens.schlemenspocketrockets.SchlemensPocketRocketsDataGenerator"
+		]
+	},
+	"mixins": [
+		"schlemenspocketrockets.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
